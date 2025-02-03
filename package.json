@@ -10,6 +10,7 @@
         "eject": "react-scripts eject"
     },
     "dependencies": {
+        "@tailwindcss/postcss7-compat": "^2.2.17",
         "audit": "^0.0.6",
         "axios": "^1.7.9",
         "chart.js": "^4.3.0",
@@ -19,7 +20,7 @@
         "react-chartjs-2": "^5.2.0",
         "react-dom": "^19.0.0",
         "react-router-dom": "^6.29.0",
-        "react-scripts": "^3.0.1"
+        "react-scripts": "^5.0.1"
     },
     "browserslist": {
         "production": [
@@ -34,10 +35,13 @@
         ]
     },
     "devDependencies": {
+        "@babel/plugin-transform-class-properties": "^7.25.9",
         "@babel/plugin-transform-nullish-coalescing-operator": "^7.26.6",
+        "@babel/plugin-transform-numeric-separator": "^7.25.9",
         "@babel/plugin-transform-optional-chaining": "^7.25.9",
-        "autoprefixer": "^10.4.20",
-        "postcss": "^8.5.1",
+        "@babel/plugin-transform-private-methods": "^7.25.9",
+        "autoprefixer": "^9.8.8",
+        "postcss": "^7.0.39",
         "tailwindcss": "^4.0.3"
     }
 }
